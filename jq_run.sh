@@ -1,0 +1,1 @@
+schedctl create --name diffusion --image "harbor.smoa.cc/public/smore_core:v2.2.0.cu10" --gpu 1 --cmd "cd /newdata/jiachen/project/diffusion && /newdata/jiachen/miniconda3/envs/diffusion/bin/python run_diffusion.py"
