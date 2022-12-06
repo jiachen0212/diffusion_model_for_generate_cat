@@ -1,5 +1,6 @@
 import torch
 from torchvision import utils
+# git link: https://github.com/lucidrains/denoising-diffusion-pytorch.git
 from denoising_diffusion_pytorch import Unet, GaussianDiffusion, Trainer
 import os
 import cv2
